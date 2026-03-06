@@ -1,0 +1,5 @@
+[submodule "poky"]
+    path = poky
+    url = https://git.yoctoproject.org/poky
+    # If you want to track a branch (Git 2.13+), you can add:
+    # branch = kirkstone

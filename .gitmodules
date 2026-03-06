@@ -2,8 +2,13 @@
     path = poky
     url = https://git.yoctoproject.org/poky
     # If you want to track a branch (Git 2.13+), you can add:
-    # branch = kirkstone
+    branch = kirkstone
+
+[submodule "yocto-meta-kf5"]
+    path = poky/yocto-meta-kf5
+    url  = https://github.com/KDE/yocto-meta-kf5
+    branch = kirkstone
 [submodule "gnome-build-meta"]
-	path = gnome-build-meta
-	url = https://gitlab.gnome.org/GNOME/gnome-build-meta
+        path = poky/gnome-build-meta
+        url = https://gitlab.gnome.org/GNOME/gnome-build-meta
 
